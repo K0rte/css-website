@@ -116,3 +116,48 @@ a {
   font-weight: bolder;
   font-size: 25px;
 }
+
+.signuptoast {
+  margin: 75px 350px;
+  display: flex;
+  justify-content: space-between;
+  padding: 55px 150px;
+  background-color: #3882F6;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.toasttext {
+  display: flex;
+  flex-direction: column;
+}
+
+.toastmaintext {
+  color: #F9FAF8;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.toastsubtext {
+  color: #E5E7EB;
+  font-size: 17px;
+}
+
+.signuptoast .signup {
+  border: #F9FAF8 3px solid;
+  width: 150px;
+  padding: 15px 0px;
+}
+
+.footer {
+  background-color: #1F2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.footertext {
+  color: #F9FAF8;
+  font-size: 20px;
+}
