@@ -64,3 +64,35 @@ a {
   font-size: 16px;
   border-radius: 5px;
 }
+
+.infotext {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+
+.pic img{
+  border: blue 5px solid;
+  border-radius: 20px;
+  height: 220px;
+  width: 220px;
+}
+
+.pic {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.picrow {
+  display: flex;
+  gap: 35px;
+}
+
+.information {
+  padding: 50px 400px 100px 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
