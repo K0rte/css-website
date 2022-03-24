@@ -71,7 +71,7 @@ a {
   color: #1F2937;
 }
 
-.pic img{
+.pic img {
   border: blue 5px solid;
   border-radius: 20px;
   height: 220px;
@@ -95,4 +95,24 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 40px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 120px 350px;
+  align-items: flex-end;
+}
+
+.quotetext {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1F2937;
+}
+
+.quotename {
+  font-weight: bolder;
+  font-size: 25px;
 }
