@@ -1,0 +1,32 @@
+body {
+  font-family: "Roboto";
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 300px;
+  background-color: #1F2937;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.headerlinks {
+  font-size: 18px;
+  color: #E5E7EB;
+}
